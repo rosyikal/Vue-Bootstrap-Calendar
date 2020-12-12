@@ -1,16 +1,7 @@
 <template>
     <div class="row">
-        <div class="col-sm-4">
-            <div class="form-group">
-                <label for="locale">{{ $t('generic.select_language')}}:</label>
-                <select class="form-control language-select" v-model="localeSelect" @change="setLocale" id="locale">
-                    <option value="ar">AR</option>
-                    <option value="en">EN</option>
-                    <option value="de">DE</option>
-                </select>
-            </div>
-        </div>
-        <div class="col-sm-4 header-center">
+        <div class="col-sm-2"></div>
+        <div class="col-sm-6 header-center">
             <div class="btn-group">
                 <button @click.stop="goPrev" class="btn btn-outline btn-primary">&lArr; {{ $t('generic.previous')}}</button>
                 <button @click.stop="goToday" class="btn btn-outline btn-default today-button">&dArr; {{ $t('generic.today')}}</button>
