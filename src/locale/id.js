@@ -6,7 +6,7 @@ export default {
 		'calender': "Kalender",
 		'today': "Hari Ini",
 		'week': "Pekan",
-		'add_event': "Tambah Jadwal",
+		'add_event': "Tambah Agenda",
 		'select_language': "Pilih Bahasa",
 	},
 }
